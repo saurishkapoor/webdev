@@ -4,7 +4,7 @@ from pathlib import Path
 # note to reader - im using shadcn since it aesthically more beautiful than the depressing streamlit vanilla variant
 
 project_folder = Path(__file__).parent.parent
-profile_picture = project_folder / "sexyimage.png"
+profile_picture = Path(__file__).parent / "sexyimage.png"
 
 # description of pages in my portfolio:S
 # 1. home page - houses all info about me, my experience, projects, interests, etc.
