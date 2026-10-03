@@ -139,7 +139,7 @@ spoken_data = {
 image_col, hero_col = st.columns([1, 3], gap="large")
 
 with image_col:
-    st.image(profile_picture, width=210)
+    st.image(str(profile_picture), width=210)
 
 with hero_col:
     st.title("Saurish Kapoor")
