@@ -44,8 +44,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-profile_picture = "sexyimage.png"
-
 about_me = """
 I'm a first year ChBE student at Tech interested
 in the intersection of atoms (biology) and bits (computation).
