@@ -1,6 +1,10 @@
 import streamlit as st
 import streamlit_shadcn_ui as ui
+from pathlib import Path
 # note to reader - im using shadcn since it aesthically more beautiful than the depressing streamlit vanilla variant
+
+project_folder = Path(__file__).parent.parent
+profile_picture = project_folder / "sexyimage.png"
 
 # description of pages in my portfolio:S
 # 1. home page - houses all info about me, my experience, projects, interests, etc.
@@ -15,7 +19,7 @@ st.write("")
 
 st.set_page_config(
     page_title="Saurish Kapoor",
-    page_icon="sexyimage.png",
+    page_icon=profile_picture,
     layout="wide",
 )
 
