@@ -19,7 +19,7 @@ st.write("")
 
 st.set_page_config(
     page_title="Saurish Kapoor",
-    page_icon=profile_picture,
+    page_icon=str(profile_picture),
     layout="wide",
 )
 
